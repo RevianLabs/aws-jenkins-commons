@@ -1,4 +1,4 @@
-AWS_ECS_ACCOUNT_ARN = "arn:aws:ecs:eu-central-1:${ENVIRONMENT_ID}"
+AWS_ECS_ACCOUNT_ARN = "arn:aws:ecs:${REGION}:${ENVIRONMENT_ID}"
 ENVIRONMENT_ROLE = "arn:aws:iam::${ENVIRONMENT_ID}:role/ADFS-VT-DevOps"
 
 ENVIRONMENT_AWS_CREDENTIALS_MAPPING = "aws_jenkins_user
